@@ -1,0 +1,46 @@
+.clients {
+    display: flex;
+    gap: 30px;
+    justify-content: center;
+    flex-wrap: wrap;
+
+    @media screen and (min-width: 1200px) {
+    flex-wrap: nowrap;
+    }
+
+    &__items {
+    width: 210px;
+
+    @media screen and (min-width: 768px) {
+    flex-basis: calc((100% - var(--indent)*(var(--items) - 1))/var(--items));
+    width: 226px;
+    }    
+
+    @media screen and (min-width: 1200px) {
+    width: 170px;
+    height: 92px;
+    }
+    }
+
+    &__link {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid var(--icon-mine-cl);
+    border-radius: 4px;
+    width: 100%;
+    height: 100%;
+    color: var(--icon-mine-cl);
+    transition: color var(--animation), background-color var(--animation);
+    }
+
+    &__link:hover,
+    &__link:focus {
+    border: 1px solid var(--accent-cl);
+    color: var(--accent-cl);
+    }
+
+    &__icon {
+    fill: currentColor;
+    }
+}
