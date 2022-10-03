@@ -144,15 +144,45 @@
           <h2 class="section__title">Чим ми займаємося</h2>
           <ul class="about list">
             <li class="about__item">
-              <img src="./images/optim_img/box-1.jpg" alt="Розробка сайтів" width="370" />
+              <picture>
+                <!-- Desktop -->
+                <source
+                  media="(min-width: 1200px)"
+                  srcset="
+                    ./images/optim_img/features/feat1_desk@1x.jpg 1x,
+                    ./images/optim_img/features/feat1_desk@2x.jpg 2x
+                  "
+                />
+                <img src="./images/optim_img/features/feat1_desk@1x.jpg" alt="Розробка сайтів" />
+              </picture>
               <p class="about__desc">Десктопні додатки</p>
             </li>
             <li class="about__item">
-              <img src="./images/optim_img/box-2.jpg" alt="Розробка додатків" width="370" />
+              <picture>
+                <!-- Desktop -->
+                <source
+                  media="(min-width: 1200px)"
+                  srcset="
+                    ./images/optim_img/features/feat2_desk@1x.jpg 1x,
+                    ./images/optim_img/features/feat2_desk@2x.jpg 2x
+                  "
+                />
+                <img src="./images/optim_img/features/feat2_desk@1x.jpg" alt="Розробка додатків" />
+              </picture>
               <p class="about__desc">Мобільні додатки</p>
             </li>
             <li class="about__item">
-              <img src="./images/optim_img/box-3.jpg" alt="Розробка дизайну" width="370" />
+              <picture>
+                <!-- Desktop -->
+                <source
+                  media="(min-width: 1200px)"
+                  srcset="
+                    ./images/optim_img/features/feat3_desk@1x.jpg 1x,
+                    ./images/optim_img/features/feat3_desk@2x.jpg 2x
+                  "
+                />
+                <img src="./images/optim_img/features/feat3_desk@1x.jpg" alt="Розробка дизайну" />
+              </picture>
               <p class="about__desc">Дизайнерські рішення</p>
             </li>
           </ul>
