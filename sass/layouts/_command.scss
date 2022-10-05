@@ -12,14 +12,10 @@
     justify-content: center;
     flex-direction: column;
 
-    @media screen and (min-width: 481px){
+    @media screen and (min-width: 768px){
     flex-direction: row;
     flex-wrap: wrap;
     }
-
-    // @media screen and (min-width: 1200px) {
-    // flex-basis: auto;
-    // }
     }
 
     &__item {

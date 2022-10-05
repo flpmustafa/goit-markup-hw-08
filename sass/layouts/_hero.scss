@@ -69,6 +69,10 @@ url('../images/optim_img/hero/hero_tab_@1x.png');
     font-size: 26px;
     line-height: calc(42 / 26);
 
+    @media screen and (min-width: 768px) {
+    width: 360px;    
+    }
+
     @media screen and (min-width: 1200px){
     width: 696px;
     font-size: 44px;
