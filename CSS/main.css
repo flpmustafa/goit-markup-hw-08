@@ -431,6 +431,8 @@ address {
 }
 @media screen and (min-width: 1200px) {
   .features__list {
+    -ms-flex-wrap: nowrap;
+        flex-wrap: nowrap;
     -webkit-box-orient: horizontal;
     -webkit-box-direction: normal;
         -ms-flex-direction: row;
